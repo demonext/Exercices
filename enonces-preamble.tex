@@ -1,0 +1,29 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper,margin=3cm]{geometry}
+
+
+\usepackage[frenchb]{babel}
+\usepackage{gb4e}
+
+\usepackage{fontspec}
+\setmainfont[Ligatures=TeX,%
+BoldSlantedFont = {CharisSIL-B.ttf},
+SlantedFont    = {CharisSIL-R.ttf},
+SlantedFeatures = {FakeSlant=0.18},
+BoldSlantedFeatures = {FakeSlant=0.18},
+ItalicFont={CharisSIL-I.ttf},%
+BoldFont={CharisSIL-B.ttf},%
+BoldItalicFont={CharisSIL-BI.ttf}%
+]{CharisSIL-R.ttf}
+
+\pagestyle{empty}
+
+\setlength{\parindent}{0pt}
+
+%\newcommand{\ho}[1]{}
+\newcommand{\ho}[1]{#1}
+
+\newcounter{ex}
+\setcounter{ex}{1}
+\newcommand{\nex}{\theex\stepcounter{ex}}
+
