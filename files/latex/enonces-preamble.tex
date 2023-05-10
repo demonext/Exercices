@@ -1,13 +1,17 @@
 \documentclass[12pt]{article}
 
-\usepackage{fontspec}
-\setmainfont[Ligatures=TeX,%
-UprightFont = {CharisSIL-R.ttf},%
-ItalicFont = {CharisSIL-I.ttf},%
-BoldFont = {CharisSIL-B.ttf},%
-BoldItalicFont = {CharisSIL-BI.ttf}%
-]{CharisSIL-R.ttf}
 
+\usepackage{fontspec}
+\setmainfont[%
+Path = "./",% 
+ExternalLocation,%
+Ligatures=TeX,%
+UprightFont = CharisSIL-R,%
+ItalicFont = CharisSIL-I,%
+BoldFont = CharisSIL-B,%
+BoldItalicFont = CharisSIL-BI,%
+Extension = .ttf
+]{CharisSIL-R}
 
 \usepackage[margin=3cm]{geometry}
 \geometry{verbose,a4paper}
